@@ -27,7 +27,7 @@
 
 1. In the Workspace, click the **"+"** button or use the upload option
 2. Upload the entire project folder structure:
-   - `Untitled.sql`
+   - `Backend_code`
    - `Navadrishti APP/` folder (contains `Navadrishti.py`, `snowflake.yml`, `pyproject.toml`, `.streamlit/config.toml`)
    - `cortex_project/` folder (contains all `.yaml` agent and semantic view files)
    - `docs/` folder (optional -- for reference only)
@@ -37,7 +37,7 @@
 
 This sets up the entire database, tables, matching logic, and analytics views.
 
-1. Open **`Untitled.sql`** in the Workspace
+1. Open **`Backend_code`** in the Workspace
 2. Make sure the warehouse is set to `COMPUTE_WH` (or your preferred warehouse)
 3. **Run all the SQL statements** in order (top to bottom)
 
